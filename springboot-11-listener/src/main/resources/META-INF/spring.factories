@@ -1,0 +1,4 @@
+org.springframework.context.ApplicationContextInitializer=\
+  chaoyue.study.listener.MyApplicationContextInitializer
+org.springframework.boot.SpringApplicationRunListener=\
+  chaoyue.study.listener.MySpringApplicationRunListener

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>chaoyue.study</groupId>
+    <artifactId>springboot-base-chaoyue</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <!-- 继承Springboot父项目 为了管理依赖 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.8.RELEASE</version>
+    </parent>
+
+    <modules>
+        <module>springboot-custom-third</module>
+        <module>springboot-custom-starter</module>
+        <module>springboot-custom-autoconfigure</module>
+
+        <module>springboot-01-helloworld</module>
+        <module>springboot-02-config</module>
+        <module>springboot-03-profile</module>
+        <module>springboot-04-junit</module>
+        <module>springboot-05-mybatis</module>
+        <module>springboot-06-redis</module>
+        <module>springboot-07-condition</module>
+        <module>springboot-08-jetty</module>
+        <module>springboot-09-import</module>
+        <module>springboot-10-starter</module>
+        <module>springboot-11-listener</module>
+        <module>springboot-12-actuator</module>
+        <module>springboot-actuator-admin</module>
+        <module>springboot-13-package</module>
+
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>

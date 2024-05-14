@@ -1,0 +1,24 @@
+# 第二优先级
+server:
+  port: 8082
+
+# 对象
+person:
+  name: chaoyue
+  age: 23
+  address:
+    - address1
+    - address2
+
+# 数组
+address1:
+  - shanghai
+  - beijing
+address2: [ guangzhou,shenzheng ]
+
+# 纯量 单引号忽略转义字符 双引号识别转义字符
+msg1: 'hello \n world'
+msg2: "hello \n world"
+
+# 参数引用
+myname: ${person.name}
