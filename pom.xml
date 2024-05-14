@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>chaoyue.study</groupId>
-    <artifactId>springboot-base-chaoyue</artifactId>
+    <artifactId>springboot-base-study</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <!-- 继承Springboot父项目 为了管理依赖 -->
